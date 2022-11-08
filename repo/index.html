@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+      <img src="{{ post.image }}">
+
+      <div><a href="{{ site.baseurl }}{{ post.url }}" class="read-more">{{ post.title }}</a></div>
+    
+      <div class="date">
+        {{ post.published }}
+      </div>
+
+    </article>
+  {% endfor %}
+</div>

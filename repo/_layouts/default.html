@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+
+          <nav>
+            <a href="https://linx.software/">Main</a>
+            <a href="{{ site.baseurl }}/">Blog</a>
+            <a href="https://linx.software/docs">Docs</a>
+            <a href="https://community.linx.software">Community</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="title" role="title" class="container">
+      <h3 style="text-align: center; font-family: courier; line-height: 1.8em;"><span style="color: #ffffff; background-color: #000000; padding: 5px 0px 5px 0px;">&nbsp;Blog&nbsp;</span></h3>
+    </div>
+
+    <div id="main" role="main" class="container main-column-layout">
+      <div class="categories-container">
+        <h2>View by category</h2>
+        <div class="categories">
+        </div>
+      </div>
+        {{ content }}
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include svg-icons.html %}
+        </footer>
+      </div>
+    </div>
+
+    {% include analytics.html %}
+    <script>
+      let categories = [];
+      {% for category in site.categories %}
+        categories.push('{{ category | first }}');
+      {% endfor %}
+      categories = categories.sort();
+      const cats = document.querySelector(".categories");
+      for (let i=0;i<categories.length;i++){
+        let item = document.createElement("a");
+        item.innerHTML = categories[i];
+        cats.appendChild(item);
+      }
+    </script>
+  </body>
+</html>
