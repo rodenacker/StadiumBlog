@@ -1,0 +1,1 @@
+powershell -File BuildDev.ps1

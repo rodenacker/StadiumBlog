@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<!--<h3>Category: {{ page.category }}</h3>-->
+<div class="posts">
+  {% for post in site.categories[page.category] %}
+  <article class="post">
+    <img src="{{ post.image }}">
+
+    <div class="post-info">
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">{{ post.title }}</a>
+      <div class="date">
+        {{ post.published }}
+      </div>
+    </div>
+  </article>
+  {% endfor %}
+</div>

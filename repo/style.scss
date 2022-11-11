@@ -25,14 +25,27 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1024px;
+  max-width: 1240px;
   padding: 0 10px;
   width: 100%;
 }
 
 .main-column-layout {
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 20% 1fr;
+  gap: 16px;
+
+  @include mobile {
+    grid-template-columns: 1fr;
+  }
+}
+
+.categories-container {
+  text-align: right;
+  
+  @include mobile {
+    display: none;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -157,7 +170,7 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 20px;
-  background-color: #1e7ebf;
+  background-color: #f1f1f1;
 }
 
 .masthead {
@@ -232,7 +245,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $white;
+    color: $gray;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -243,7 +256,7 @@ nav {
     }
   }
   a:hover {
-    color: $white;
+    color: $gray;
     text-decoration: underline;
   }
 }
@@ -252,20 +265,40 @@ nav {
 // .main
 //
 
-.categories a {
+.listitem {
   display:block;
+  cursor: pointer;
+}
+
+.listitem:hover {
+  text-decoration: underline;
 }
 
 .posts {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
 }
 
 .posts > .post {
-  padding-bottom: 2em;
+  width: 400px;
+  max-width: 100%;
+  padding-bottom: 1em;
   border-bottom: 1px solid $lightGray;
   box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.25);
+}
+
+.post-info {
+  padding: 6px;
+  a {
+    display: block;
+  }
+  .date {
+    font-style: inherit;
+    color: $gray;
+    font-size: $fontSize;
+  }
 }
 
 .post {
@@ -286,8 +319,30 @@ nav {
     text-transform: uppercase;
     font-size: 15px;
   }
+
+  .entry img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+}
+.PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
 }
 
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: right;
+}
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid #ddd;
