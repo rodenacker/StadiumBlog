@@ -24,13 +24,13 @@
     </div>
     
     <div id="title" role="title" class="container">
-      <h3 style="text-align: center; font-family: courier; line-height: 1.8em;">
-        <span style="color: #ffffff; background-color: #000000; padding: 5px 0px 5px 0px;">&nbsp;Blog&nbsp;</span>
-      </h3>
+      <h1>Blog</h1>
     </div>
 
     <div id="main" role="main" class="container main-column-layout">
+      <div class="sidebar-container">
       <div class="categories-container">
+        {% if site.categories.size  > 0 %}
         <h4>Categories</h4>
         <div class="categories">
           {% assign sorted_cats = site.categories | sort %}
@@ -38,6 +38,8 @@
             <a class="listitem category" href="/category/{{ category | first }}/">{{ category | first | capitalize }}</a>
           {% endfor %}
         </div>
+        {% endif %}
+        {% if site.tags.size  > 0 %}
         <h4>Tags</h4>
         <div class="categories">
           {% assign sorted_tags = site.tags | sort %}
@@ -45,26 +47,25 @@
             <a class="listitem tag" href="/tag/{{ tag | first }}/">{{ tag | first }}</a>
           {% endfor %}
         </div>
+        {% endif %}
+        <div class="categories">{% include svg-icons.html %}</div>
       </div>
+    </div>
+    <div class="content-container">
         {{ content }}
+      </div>
     </div>
 
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
-          {% include svg-icons.html %}
+          Copyright © <a href="https://twenty57.com">Twenty57</a> | <a href="https://stadium.software">Contact Us</a> | <a href="https://stadium.software">Support</a> | <a href="https://stadium.software">Community</a>
         </footer>
       </div>
     </div>
 
     {% include analytics.html %}
     <script>
-      const categories = document.querySelectorAll(".categories");
-      for (let i=0; i<categories.length; i++) {
-        categories[i].addEventListener("click", function(){
-
-        });
-      }
     </script>
   </body>
 </html>
