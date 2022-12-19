@@ -2,7 +2,7 @@
 layout: post
 title: New Release&#58; Stadium 5.25
 published: Fri, 14 Jan 2022 12:50:23 +0000
-image: https://stadium.software/wp-content/uploads/2019/05/blog-headliners-03-650x350.jpg
+image: https://interaction-design.co.za/stadiumblog/blogimages/blog-headliners-03-650x350.jpg
 categories: [announcements]
 tags: 
 ---
@@ -40,7 +40,7 @@ tags:
 
 
 <figure class="wp-block-image size-large">
-<img loading="lazy" width="531" height="571" src="https://stadium.software/wp-content/uploads/2022/01/Screenshot-2022-01-14-at-14.46.31.png" alt="" class="wp-image-1822" srcset="https://stadium.software/wp-content/uploads/2022/01/Screenshot-2022-01-14-at-14.46.31.png 531w, https://stadium.software/wp-content/uploads/2022/01/Screenshot-2022-01-14-at-14.46.31-279x300.png 279w" sizes="(max-width: 531px) 100vw, 531px"/>
+<img loading="lazy" width="531" height="571" src="{{ site.baseurl }}/blogimages/Screenshot-2022-01-14-at-14.46.31.png" alt="" class="wp-image-1822"/>
 <figcaption>Creating a type</figcaption>
 </figure>
 
@@ -51,7 +51,7 @@ tags:
 
 
 <figure class="wp-block-image size-large">
-<img loading="lazy" width="374" height="330" src="https://stadium.software/wp-content/uploads/2022/01/Screenshot-2022-01-14-at-14.46.35.png" alt="" class="wp-image-1823" srcset="https://stadium.software/wp-content/uploads/2022/01/Screenshot-2022-01-14-at-14.46.35.png 374w, https://stadium.software/wp-content/uploads/2022/01/Screenshot-2022-01-14-at-14.46.35-300x265.png 300w" sizes="(max-width: 374px) 100vw, 374px"/>
+<img loading="lazy" width="374" height="330" src="{{ site.baseurl }}/blogimages/Screenshot-2022-01-14-at-14.46.35.png" alt="" class="wp-image-1823"/>
 <figcaption>Setting initial values</figcaption>
 </figure>
 

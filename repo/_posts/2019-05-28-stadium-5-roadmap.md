@@ -2,9 +2,9 @@
 layout: post
 title: Stadium 5 Roadmap
 published: Tue, 28 May 2019 05:32:45 +0000
-image: https://stadium.software/wp-content/uploads/2019/05/blog-headliners-02-650x350.jpg
+image: https://interaction-design.co.za/stadiumblog/blogimages/blog-headliners-02-650x350.jpg
 categories: [roadmap]
-tags: 
+tags: [tag11, tag21, tag31, tag41, tag51, tag61]
 ---
 
 <p>We understand that you are making an investment in the Stadium platform so it&#8217;s important that we are transparent into where Stadium is going and what features will be included in the near future.</p>

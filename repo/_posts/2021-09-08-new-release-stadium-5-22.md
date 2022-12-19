@@ -2,7 +2,7 @@
 layout: post
 title: New Release&#58; Stadium 5.22
 published: Wed, 08 Sep 2021 07:42:50 +0000
-image: https://stadium.software/wp-content/uploads/2019/05/blog-headliners-03-650x350.jpg
+image: https://interaction-design.co.za/stadiumblog/blogimages/blog-headliners-03-650x350.jpg
 categories: [announcements]
 tags: 
 ---
@@ -26,14 +26,14 @@ tags:
 
 
 <figure class="wp-block-image size-large">
-<img loading="lazy" width="1024" height="689" src="https://stadium.software/wp-content/uploads/2021/09/Image-a-1024x689.png" alt="" class="wp-image-1807" srcset="https://stadium.software/wp-content/uploads/2021/09/Image-a-1024x689.png 1024w, https://stadium.software/wp-content/uploads/2021/09/Image-a-300x202.png 300w, https://stadium.software/wp-content/uploads/2021/09/Image-a-768x517.png 768w, https://stadium.software/wp-content/uploads/2021/09/Image-a-650x438.png 650w, https://stadium.software/wp-content/uploads/2021/09/Image-a-272x182.png 272w, https://stadium.software/wp-content/uploads/2021/09/Image-a.png 1132w" sizes="(max-width: 1024px) 100vw, 1024px"/>
+<img loading="lazy" width="1024" height="689" src="{{ site.baseurl }}/blogimages/Image-a-1024x689.png" alt="" class="wp-image-1807"/>
 <figcaption>View at design time</figcaption>
 </figure>
 
 
 
 <figure class="wp-block-image size-large">
-<img loading="lazy" width="1024" height="650" src="https://stadium.software/wp-content/uploads/2021/09/Image-b-1024x650.png" alt="" class="wp-image-1808" srcset="https://stadium.software/wp-content/uploads/2021/09/Image-b-1024x650.png 1024w, https://stadium.software/wp-content/uploads/2021/09/Image-b-300x191.png 300w, https://stadium.software/wp-content/uploads/2021/09/Image-b-768x488.png 768w, https://stadium.software/wp-content/uploads/2021/09/Image-b-1536x976.png 1536w, https://stadium.software/wp-content/uploads/2021/09/Image-b-2048x1301.png 2048w, https://stadium.software/wp-content/uploads/2021/09/Image-b-650x413.png 650w" sizes="(max-width: 1024px) 100vw, 1024px"/>
+<img loading="lazy" width="1024" height="650" src="{{ site.baseurl }}/blogimages/Image-b-1024x650.png" alt="" class="wp-image-1808"/>
 <figcaption>View at runtime</figcaption>
 </figure>
 
@@ -68,7 +68,7 @@ tags:
 
 
 <figure class="wp-block-image size-large">
-<img loading="lazy" width="948" height="500" src="https://stadium.software/wp-content/uploads/2021/09/Image-c.png" alt="" class="wp-image-1809" srcset="https://stadium.software/wp-content/uploads/2021/09/Image-c.png 948w, https://stadium.software/wp-content/uploads/2021/09/Image-c-300x158.png 300w, https://stadium.software/wp-content/uploads/2021/09/Image-c-768x405.png 768w, https://stadium.software/wp-content/uploads/2021/09/Image-c-650x343.png 650w" sizes="(max-width: 948px) 100vw, 948px"/>
+<img loading="lazy" width="948" height="500" src="{{ site.baseurl }}/blogimages/Image-c.png" alt="" class="wp-image-1809" srcset="/blogimages/Image-c.png 948w, /blogimages/Image-c-300x158.png 300w, /blogimages/Image-c-768x405.png 768w, /blogimages/Image-c-650x343.png 650w" sizes="(max-width: 948px) 100vw, 948px"/>
 </figure>
 
 

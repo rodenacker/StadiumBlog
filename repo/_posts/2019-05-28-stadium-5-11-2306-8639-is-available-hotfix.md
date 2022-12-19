@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Stadium 5.11.2306.8639 is available (Hotfix)
-published: Tue, 28 May 2019 05:30:14 +0000
-image: https://stadium.software/wp-content/uploads/2019/05/blog-headliners-04-650x350.jpg
+published: 28-5-2019
+image: https://interaction-design.co.za/stadiumblog/blogimages/blog-headliners-04-650x350.jpg
 categories: [uncategorized]
-tags: 
+tags: [tag1, tag2, tag3, tag4, tag5, tag6]
 ---
 
 <p>This hotfix release only contains critical bug fixes. We are currently hard at work on our next feature release which will contain a lot of exciting new features!</p>

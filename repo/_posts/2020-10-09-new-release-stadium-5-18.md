@@ -2,7 +2,7 @@
 layout: post
 title: New Release&#58; Stadium 5.18
 published: Fri, 09 Oct 2020 12:04:08 +0000
-image: https://stadium.software/wp-content/uploads/2019/05/blog-headliners-03-650x350.jpg
+image: https://interaction-design.co.za/stadiumblog/blogimages/blog-headliners-03-650x350.jpg
 categories: [announcements]
 tags: 
 ---
@@ -13,7 +13,7 @@ tags:
 
 
 <figure class="wp-block-image size-large">
-<img loading="lazy" width="1024" height="875" src="https://stadium.software/wp-content/uploads/2020/10/chart_examples-1-1024x875.png" alt="" class="wp-image-1672" srcset="https://stadium.software/wp-content/uploads/2020/10/chart_examples-1-1024x875.png 1024w, https://stadium.software/wp-content/uploads/2020/10/chart_examples-1-300x256.png 300w, https://stadium.software/wp-content/uploads/2020/10/chart_examples-1-768x656.png 768w, https://stadium.software/wp-content/uploads/2020/10/chart_examples-1-1536x1313.png 1536w, https://stadium.software/wp-content/uploads/2020/10/chart_examples-1-650x556.png 650w, https://stadium.software/wp-content/uploads/2020/10/chart_examples-1.png 1589w" sizes="(max-width: 1024px) 100vw, 1024px"/>
+<img loading="lazy" width="1024" height="875" src="{{ site.baseurl }}/blogimages/chart_examples-1-1024x875.png" alt="" class="wp-image-1672"/>
 </figure>
 
 

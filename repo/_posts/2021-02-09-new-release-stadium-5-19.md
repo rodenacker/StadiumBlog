@@ -2,7 +2,7 @@
 layout: post
 title: New Release&#58; Stadium 5.19
 published: Tue, 09 Feb 2021 13:47:21 +0000
-image: https://stadium.software/wp-content/uploads/2019/05/blog-headliners-03-650x350.jpg
+image: https://interaction-design.co.za/stadiumblog/blogimages/blog-headliners-03-650x350.jpg
 categories: [announcements]
 tags: 
 ---
@@ -12,14 +12,14 @@ tags:
 
 
 <figure class="wp-block-image size-large">
-<img loading="lazy" width="1024" height="549" src="https://stadium.software/wp-content/uploads/2021/02/before-1024x549.png" alt="" class="wp-image-1786" srcset="https://stadium.software/wp-content/uploads/2021/02/before-1024x549.png 1024w, https://stadium.software/wp-content/uploads/2021/02/before-300x161.png 300w, https://stadium.software/wp-content/uploads/2021/02/before-768x412.png 768w, https://stadium.software/wp-content/uploads/2021/02/before-1536x824.png 1536w, https://stadium.software/wp-content/uploads/2021/02/before-650x349.png 650w, https://stadium.software/wp-content/uploads/2021/02/before.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px"/>
+<img loading="lazy" width="1024" height="549" src="{{ site.baseurl }}/blogimages/before-1024x549.png" alt="" class="wp-image-1786"/>
 <figcaption>Before</figcaption>
 </figure>
 
 
 
 <figure class="wp-block-image size-large">
-<img loading="lazy" width="1024" height="549" src="https://stadium.software/wp-content/uploads/2021/02/after-1024x549.png" alt="" class="wp-image-1785" srcset="https://stadium.software/wp-content/uploads/2021/02/after-1024x549.png 1024w, https://stadium.software/wp-content/uploads/2021/02/after-300x161.png 300w, https://stadium.software/wp-content/uploads/2021/02/after-768x412.png 768w, https://stadium.software/wp-content/uploads/2021/02/after-1536x824.png 1536w, https://stadium.software/wp-content/uploads/2021/02/after-650x349.png 650w, https://stadium.software/wp-content/uploads/2021/02/after.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px"/>
+<img loading="lazy" width="1024" height="549" src="{{ site.baseurl }}/blogimages/after-1024x549.png" alt="" class="wp-image-1785"/>
 <figcaption>After</figcaption>
 </figure>
 
@@ -34,7 +34,7 @@ tags:
 
 
 <figure class="wp-block-image size-large">
-<img loading="lazy" width="1024" height="300" src="https://stadium.software/wp-content/uploads/2021/02/swimlanes-1024x300.png" alt="" class="wp-image-1787" srcset="https://stadium.software/wp-content/uploads/2021/02/swimlanes-1024x300.png 1024w, https://stadium.software/wp-content/uploads/2021/02/swimlanes-300x88.png 300w, https://stadium.software/wp-content/uploads/2021/02/swimlanes-768x225.png 768w, https://stadium.software/wp-content/uploads/2021/02/swimlanes-650x190.png 650w, https://stadium.software/wp-content/uploads/2021/02/swimlanes.png 1199w" sizes="(max-width: 1024px) 100vw, 1024px"/>
+<img loading="lazy" width="1024" height="300" src="{{ site.baseurl }}/blogimages/swimlanes-1024x300.png" alt="" class="wp-image-1787"/>
 </figure>
 
 

@@ -1,21 +1,17 @@
 ---
 layout: default
 ---
-<!--<h1>Tag: {{ page.tag }}</h1>-->
+
 <div class="posts">
-{% for post in site.tags[page.tag] %}
-<article class="post">
-  <img src="{{ post.image }}">
+    {% for post in site.tags[page.tag] %}
+    <div class="post">
+        <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.image }}" /></a>
 
-  <div class="post-info">
-    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">{{ post.title }}</a>
-    <div class="date">
-      {{ post.published }}
+        <div class="post-info">
+            <div class="date">{{ post.published | date: "%b %d, %Y" }}</div>
+            <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">{{ post.title }}</a>
+        </div>
     </div>
-  </div>
 
-</article>
-
-{% endfor %}
+    {% endfor %}
 </div>
-<hr>

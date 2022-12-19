@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<!--<h1>Tag: {{ page.tag }}</h1>-->
+<div class="posts">
+{% for post in site.tags[page.tag] %}
+<article class="post">
+  <img src="{{ post.image }}">
+
+  <div class="post-info">
+    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">{{ post.title }}</a>
+    <div class="date">
+      {{ post.published }}
+    </div>
+  </div>
+
+</article>
+
+{% endfor %}
+</div>
+<hr>

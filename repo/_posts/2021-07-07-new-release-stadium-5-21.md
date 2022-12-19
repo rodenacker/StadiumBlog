@@ -2,7 +2,7 @@
 layout: post
 title: New Release&#58; Stadium 5.21
 published: Wed, 07 Jul 2021 08:44:49 +0000
-image: https://stadium.software/wp-content/uploads/2019/05/blog-headliners-02-650x350.jpg
+image: https://interaction-design.co.za/stadiumblog/blogimages/blog-headliners-02-650x350.jpg
 categories: [announcements]
 tags: 
 ---
@@ -50,13 +50,13 @@ tags:
 
 
 <figure class="wp-block-image size-large">
-<img loading="lazy" width="747" height="220" src="https://stadium.software/wp-content/uploads/2021/07/Container-Designer.png" alt="" class="wp-image-1796" srcset="https://stadium.software/wp-content/uploads/2021/07/Container-Designer.png 747w, https://stadium.software/wp-content/uploads/2021/07/Container-Designer-300x88.png 300w, https://stadium.software/wp-content/uploads/2021/07/Container-Designer-650x191.png 650w" sizes="(max-width: 747px) 100vw, 747px"/>
+<img loading="lazy" width="747" height="220" src="{{ site.baseurl }}/blogimages/Container-Designer.png" alt="" class="wp-image-1796"/>
 </figure>
 
 
 
 <figure class="wp-block-image size-large">
-<img loading="lazy" width="673" height="459" src="https://stadium.software/wp-content/uploads/2021/07/Container-Browser.png" alt="" class="wp-image-1797" srcset="https://stadium.software/wp-content/uploads/2021/07/Container-Browser.png 673w, https://stadium.software/wp-content/uploads/2021/07/Container-Browser-300x205.png 300w, https://stadium.software/wp-content/uploads/2021/07/Container-Browser-650x443.png 650w" sizes="(max-width: 673px) 100vw, 673px"/>
+<img loading="lazy" width="673" height="459" src="{{ site.baseurl }}/blogimages/Container-Browser.png" alt="" class="wp-image-1797"/>
 </figure>
 
 
@@ -85,7 +85,7 @@ tags:
 
 
 <figure class="wp-block-image size-large">
-<img loading="lazy" width="812" height="253" src="https://stadium.software/wp-content/uploads/2021/07/Flexbox.png" alt="" class="wp-image-1798" srcset="https://stadium.software/wp-content/uploads/2021/07/Flexbox.png 812w, https://stadium.software/wp-content/uploads/2021/07/Flexbox-300x93.png 300w, https://stadium.software/wp-content/uploads/2021/07/Flexbox-768x239.png 768w, https://stadium.software/wp-content/uploads/2021/07/Flexbox-650x203.png 650w" sizes="(max-width: 812px) 100vw, 812px"/>
+<img loading="lazy" width="812" height="253" src="{{ site.baseurl }}/blogimages/Flexbox.png" alt="" class="wp-image-1798" srcset="/blogimages/Flexbox.png 812w, /blogimages/Flexbox-300x93.png 300w, /blogimages/Flexbox-768x239.png 768w, /blogimages/Flexbox-650x203.png 650w" sizes="(max-width: 812px) 100vw, 812px"/>
 </figure>
 
 
@@ -123,13 +123,13 @@ tags:
 
 
 <figure class="wp-block-image size-large">
-<img loading="lazy" width="780" height="301" src="https://stadium.software/wp-content/uploads/2021/07/Grid-1.png" alt="" class="wp-image-1801" srcset="https://stadium.software/wp-content/uploads/2021/07/Grid-1.png 780w, https://stadium.software/wp-content/uploads/2021/07/Grid-1-300x116.png 300w, https://stadium.software/wp-content/uploads/2021/07/Grid-1-768x296.png 768w, https://stadium.software/wp-content/uploads/2021/07/Grid-1-650x251.png 650w" sizes="(max-width: 780px) 100vw, 780px"/>
+<img loading="lazy" width="780" height="301" src="{{ site.baseurl }}/blogimages/Grid-1.png" alt="" class="wp-image-1801" srcset="/blogimages/Grid-1.png 780w, /blogimages/Grid-1-300x116.png 300w, /blogimages/Grid-1-768x296.png 768w, /blogimages/Grid-1-650x251.png 650w" sizes="(max-width: 780px) 100vw, 780px"/>
 </figure>
 
 
 
 <figure class="wp-block-image size-large">
-<img loading="lazy" width="405" height="309" src="https://stadium.software/wp-content/uploads/2021/07/Grid_in_browser-1.png" alt="" class="wp-image-1802" srcset="https://stadium.software/wp-content/uploads/2021/07/Grid_in_browser-1.png 405w, https://stadium.software/wp-content/uploads/2021/07/Grid_in_browser-1-300x229.png 300w" sizes="(max-width: 405px) 100vw, 405px"/>
+<img loading="lazy" width="405" height="309" src="{{ site.baseurl }}/blogimages/Grid_in_browser-1.png" alt="" class="wp-image-1802" srcset="/blogimages/Grid_in_browser-1.png 405w, /blogimages/Grid_in_browser-1-300x229.png 300w" sizes="(max-width: 405px) 100vw, 405px"/>
 </figure>
 
 

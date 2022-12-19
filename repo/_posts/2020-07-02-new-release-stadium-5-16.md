@@ -2,7 +2,7 @@
 layout: post
 title: New Release&#58; Stadium 5.16
 published: Thu, 02 Jul 2020 06:35:53 +0000
-image: https://stadium.software/wp-content/uploads/2019/05/blog-headliners-02-650x350.jpg
+image: https://interaction-design.co.za/stadiumblog/blogimages/blog-headliners-02-650x350.jpg
 categories: [announcements]
 tags: 
 ---
@@ -23,7 +23,7 @@ tags:
 <span style="font-weight: 400;">, was included exactly because of this reason. Any actions dragged into the new Async action run asynchronously. In addition to this, the developer can decide what should happen at the end of the Async block: Wait or Fire-and-forget. ‘Wait’ allows the Async action to first collect the output of all the child actions as they complete before continuing with the rest of the script &#8211; this behaviour would be the same as querying multiple data sources and waiting for the result of all calls before continuing. ‘Fire-and-forget’ would immediately continue with the script, not bothering to wait for the child actions to complete first &#8211; essentially the same as starting a task in the background and leaving it to complete on its own.</span>
 </p>
 <p>
-<img loading="lazy" class="alignnone  wp-image-1648" src="https://stadium.software/wp-content/uploads/2020/07/Screenshot-2020-07-02-at-08.34.56-300x178.png" alt="" width="564" height="335" srcset="https://stadium.software/wp-content/uploads/2020/07/Screenshot-2020-07-02-at-08.34.56-300x178.png 300w, https://stadium.software/wp-content/uploads/2020/07/Screenshot-2020-07-02-at-08.34.56.png 642w" sizes="(max-width: 564px) 100vw, 564px"/>
+<img loading="lazy" class="alignnone  wp-image-1648" src="{{ site.baseurl }}/blogimages/Screenshot-2020-07-02-at-08.34.56-300x178.png" alt="" width="564" height="335"/>
 </p>
 <p>
 <span style="font-weight: 400;">With this new action, web pages using many different connector functions or data sources can be built to be more performant. Also, web pages can now run tasks in the background rather than force the users to sit and wait for them to complete.</span>

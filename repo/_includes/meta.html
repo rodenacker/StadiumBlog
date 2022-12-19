@@ -1,18 +1,39 @@
-    <meta charset="utf-8" />
-    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+<meta charset="utf-8" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
-    {% if page.excerpt %}
-    <meta name="description" content="{{ page.excerpt| strip_html }}" />
-    <meta property="og:description" content="{{ page.excerpt| strip_html }}" />
-    {% else %}
-    <meta name="description" content="{{ site.description }}">
-    <meta property="og:description" content="{{ site.description }}" />
-    {% endif %}
-    <meta name="author" content="{{ site.name }}" />
+{% if page.excerpt %}
+<meta name="description" content="{{ page.excerpt| strip_html }}" />
+<meta property="og:description" content="{{ page.excerpt| strip_html }}" />
+{% else %}
+<meta name="description" content="{{ site.description }}" />
+<meta property="og:description" content="{{ site.description }}" />
+{% endif %}
+<meta name="author" content="{{ site.name }}" />
 
-    {% if page.title %}
-    <meta property="og:title" content="{{ page.title }}" />
-    <meta property="twitter:title" content="{{ page.title }}" />
-    {% endif %}
+{% if page.title %}
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="twitter:title" content="{{ page.title }}" />
+{% endif %}
+<meta property="og:url" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="{{ site.title }}" />
+<meta property="og:image" content="https://stadium.software/wp-content/uploads/2019/08/stadium-logo-200.png" />
+
+<link rel="icon" href="{{ site.baseurl }}/images/stadiumfav.png" />
+
+<link rel="preload" href="{{ site.baseurl }}/style.css" as="style" />
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+
+<link rel="preload" href="{{ site.baseurl }}/style10.css" as="style" />
+<link rel="stylesheet" media="(max-width: 1024px)" href="{{ site.baseurl }}/style10.css" />
+
+<link rel="preload" href="{{ site.baseurl }}/style20.css" as="style" />
+<link rel="stylesheet" media="(max-width: 790px)" href="{{ site.baseurl }}/style20.css" />
+
+<link rel="preload" href="{{ site.baseurl }}/style30.css" as="style" />
+<link rel="stylesheet" media="(max-width: 720px)" href="{{ site.baseurl }}/style30.css" />
+
+<link rel="preload" href="{{ site.baseurl }}/style40.css" as="style" />
+<link rel="stylesheet" media="(max-width: 520px)" href="{{ site.baseurl }}/style40.css" />

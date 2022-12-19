@@ -1,0 +1,41 @@
+.post .entry {
+    padding-right: 20px;
+}
+.post-footer .badge {
+    flex-direction: column;
+}
+.wrapper > div {
+    padding-right: 6px;
+    padding-left: 6px;
+}
+.navigation {
+    margin-right: 6px;
+    gap: 4px;
+}
+.post-footer {
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+.icons {
+    display: inline-flex;
+}
+.social {
+    order: 1;
+    text-align: center;
+}
+.badge {
+    text-align: center;
+    order: 2;
+}
+blockquote {
+    margin: 10px;
+}
+.entry,
+.entry a,
+.page-navigation a {
+    font-size: 14px;
+}
+.post-wrapper h1 {
+    font-size: 24px;
+    line-height: 30px;
+}

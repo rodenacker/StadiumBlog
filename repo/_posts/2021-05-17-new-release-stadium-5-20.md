@@ -2,7 +2,7 @@
 layout: post
 title: New Release&#58; Stadium 5.20
 published: Mon, 17 May 2021 12:00:29 +0000
-image: https://stadium.software/wp-content/uploads/2019/05/blog-headliners-02-650x350.jpg
+image: https://interaction-design.co.za/stadiumblog/blogimages/blog-headliners-02-650x350.jpg
 categories: [announcements]
 tags: 
 ---
@@ -60,7 +60,7 @@ tags:
 
 
 <figure class="wp-block-image size-large">
-<img loading="lazy" width="493" height="70" src="https://stadium.software/wp-content/uploads/2021/05/Screenshot-2021-05-17-at-13.58.54.png" alt="" class="wp-image-1791" srcset="https://stadium.software/wp-content/uploads/2021/05/Screenshot-2021-05-17-at-13.58.54.png 493w, https://stadium.software/wp-content/uploads/2021/05/Screenshot-2021-05-17-at-13.58.54-300x43.png 300w" sizes="(max-width: 493px) 100vw, 493px"/>
+<img loading="lazy" width="493" height="70" src="{{ site.baseurl }}/blogimages/Screenshot-2021-05-17-at-13.58.54.png" alt="" class="wp-image-1791"/>
 </figure>
 
 
@@ -70,5 +70,5 @@ tags:
 
 
 <figure class="wp-block-image size-large">
-<img loading="lazy" width="523" height="348" src="https://stadium.software/wp-content/uploads/2021/05/Screenshot-2021-05-17-at-13.59.03.png" alt="" class="wp-image-1792" srcset="https://stadium.software/wp-content/uploads/2021/05/Screenshot-2021-05-17-at-13.59.03.png 523w, https://stadium.software/wp-content/uploads/2021/05/Screenshot-2021-05-17-at-13.59.03-300x200.png 300w, https://stadium.software/wp-content/uploads/2021/05/Screenshot-2021-05-17-at-13.59.03-272x182.png 272w" sizes="(max-width: 523px) 100vw, 523px"/>
+<img loading="lazy" width="523" height="348" src="{{ site.baseurl }}/blogimages/Screenshot-2021-05-17-at-13.59.03.png" alt="" class="wp-image-1792"/>
 </figure>

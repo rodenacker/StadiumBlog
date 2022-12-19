@@ -1,0 +1,23 @@
+:root {
+    --topBarHeight: 30px;
+    --sideBarWidth: 100px;
+}
+.logo {
+    background-size: auto 20px;
+    width: 145px;
+}
+.sidebar-section a {
+    font-size: 12px;
+}
+.footer {
+    gap: 2px;
+}
+blockquote {
+    margin: 0;
+    background-color: rgba(255,255,255,.2);;
+}
+.entry,
+.entry a,
+.page-navigation a {
+    font-size: 12px;
+}

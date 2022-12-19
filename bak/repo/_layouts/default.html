@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    {% include meta.html %}
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/" class="site-avatar">
+            <img src="https://stadium.software/wp-content/uploads/2019/08/stadium-logo-200.png" />
+          </a>
+          <nav>
+            <a href="https://linx.software/">Main</a>
+            <a href="{{ site.baseurl }}/">Blog</a>
+            <a href="https://linx.software/docs">Docs</a>
+            <a href="https://community.linx.software">Community</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+    
+    <div id="title" role="title" class="container">
+      <h1>Blog</h1>
+    </div>
+
+    <div id="main" role="main" class="container main-column-layout">
+      <div class="sidebar-container">
+      <div class="categories-container">
+        {% if site.categories.size  > 0 %}
+        <h4>Categories</h4>
+        <div class="categories">
+          {% assign sorted_cats = site.categories | sort %}
+          {% for category in sorted_cats %}
+            <a class="listitem category" href="/category/{{ category | first }}/">{{ category | first | capitalize }}</a>
+          {% endfor %}
+        </div>
+        {% endif %}
+        {% if site.tags.size  > 0 %}
+        <h4>Tags</h4>
+        <div class="categories">
+          {% assign sorted_tags = site.tags | sort %}
+          {% for tag in sorted_tags %}
+            <a class="listitem tag" href="/tag/{{ tag | first }}/">{{ tag | first }}</a>
+          {% endfor %}
+        </div>
+        {% endif %}
+        <div class="categories">{% include svg-icons.html %}</div>
+      </div>
+    </div>
+    <div class="content-container">
+        {{ content }}
+      </div>
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          Copyright © <a href="https://twenty57.com">Twenty57</a> | <a href="https://stadium.software">Contact Us</a> | <a href="https://stadium.software">Support</a> | <a href="https://stadium.software">Community</a>
+        </footer>
+      </div>
+    </div>
+
+    {% include analytics.html %}
+    <script>
+    </script>
+  </body>
+</html>

@@ -2,7 +2,7 @@
 layout: post
 title: New Release&#58; Stadium 5.17
 published: Fri, 14 Aug 2020 11:56:17 +0000
-image: https://stadium.software/wp-content/uploads/2019/05/blog-headliners-02-650x350.jpg
+image: https://interaction-design.co.za/stadiumblog/blogimages/blog-headliners-02-650x350.jpg
 categories: [announcements]
 tags: 
 ---
@@ -36,7 +36,7 @@ tags:
 
 
 <figure class="wp-block-image size-large">
-<img loading="lazy" width="1024" height="356" src="https://stadium.software/wp-content/uploads/2020/08/1-Create-a-setting-1024x356.png" alt="" class="wp-image-1658" srcset="https://stadium.software/wp-content/uploads/2020/08/1-Create-a-setting-1024x356.png 1024w, https://stadium.software/wp-content/uploads/2020/08/1-Create-a-setting-300x104.png 300w, https://stadium.software/wp-content/uploads/2020/08/1-Create-a-setting-768x267.png 768w, https://stadium.software/wp-content/uploads/2020/08/1-Create-a-setting-650x226.png 650w, https://stadium.software/wp-content/uploads/2020/08/1-Create-a-setting.png 1289w" sizes="(max-width: 1024px) 100vw, 1024px"/>
+<img loading="lazy" width="1024" height="356" src="{{ site.baseurl }}/blogimages/1-Create-a-setting-1024x356.png" alt="" class="wp-image-1658"/>
 </figure>
 
 
@@ -50,7 +50,7 @@ tags:
 
 
 <figure class="wp-block-image size-large">
-<img loading="lazy" width="1024" height="362" src="https://stadium.software/wp-content/uploads/2020/08/2-Mark-the-setting-as-a-secret-1024x362.png" alt="" class="wp-image-1659" srcset="https://stadium.software/wp-content/uploads/2020/08/2-Mark-the-setting-as-a-secret-1024x362.png 1024w, https://stadium.software/wp-content/uploads/2020/08/2-Mark-the-setting-as-a-secret-300x106.png 300w, https://stadium.software/wp-content/uploads/2020/08/2-Mark-the-setting-as-a-secret-768x271.png 768w, https://stadium.software/wp-content/uploads/2020/08/2-Mark-the-setting-as-a-secret-650x230.png 650w, https://stadium.software/wp-content/uploads/2020/08/2-Mark-the-setting-as-a-secret.png 1291w" sizes="(max-width: 1024px) 100vw, 1024px"/>
+<img loading="lazy" width="1024" height="362" src="{{ site.baseurl }}/blogimages/2-Mark-the-setting-as-a-secret-1024x362.png" alt="" class="wp-image-1659"/>
 </figure>
 
 
@@ -65,5 +65,5 @@ tags:
 
 
 <figure class="wp-block-image size-large">
-<img loading="lazy" width="535" height="747" src="https://stadium.software/wp-content/uploads/2020/08/3-Use-the-setting.png" alt="" class="wp-image-1660" srcset="https://stadium.software/wp-content/uploads/2020/08/3-Use-the-setting.png 535w, https://stadium.software/wp-content/uploads/2020/08/3-Use-the-setting-215x300.png 215w, https://stadium.software/wp-content/uploads/2020/08/3-Use-the-setting-466x650.png 466w" sizes="(max-width: 535px) 100vw, 535px"/>
+<img loading="lazy" width="535" height="747" src="{{ site.baseurl }}/blogimages/3-Use-the-setting.png" alt="" class="wp-image-1660"/>
 </figure>

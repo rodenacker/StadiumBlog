@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Stadium 6 is Live 🚀
-published: Mon, 01 Aug 2022 08:36:03 +0000
-image: https://stadium.software/wp-content/uploads/2019/05/blog-headliners-04-650x350.jpg
+published: 1 Aug 2022
+image: https://interaction-design.co.za/stadiumblog/blogimages/blog-headliners-04-650x350.jpg
 categories: [new-features]
-tags: 
+tags: [tag1, tag2, tag3, tag4, tag5, tag6]
 ---
 
 <p>
@@ -33,7 +33,7 @@ tags:
 <span style="font-weight: 400;">There should be a law that every application needs a dark mode. It&#8217;s a preference of many developers and can help with eye strain during those long development sessions. Stadium 6 now has a fantastic-looking Dark mode.</span>
 </p>
 <p>
-<img loading="lazy" class="alignnone size-full wp-image-1833" src="https://stadium.software/wp-content/uploads/2022/08/image1.png" alt="" width="1917" height="1023" srcset="https://stadium.software/wp-content/uploads/2022/08/image1.png 1917w, https://stadium.software/wp-content/uploads/2022/08/image1-300x160.png 300w, https://stadium.software/wp-content/uploads/2022/08/image1-1024x546.png 1024w, https://stadium.software/wp-content/uploads/2022/08/image1-768x410.png 768w, https://stadium.software/wp-content/uploads/2022/08/image1-1536x820.png 1536w, https://stadium.software/wp-content/uploads/2022/08/image1-650x347.png 650w" sizes="(max-width: 1917px) 100vw, 1917px"/>
+<img loading="lazy" class="alignnone size-full wp-image-1833" src="{{ site.baseurl }}/blogimages/stad6-dark1.png" alt="" width="1917" height="1023"/>
 </p>
 <p>
 <span style="font-weight: 400;">If you prefer the classic Stadium theme as it was in Stadium 5, you can always switch between the two themes. </span>
@@ -48,7 +48,7 @@ tags:
 <span style="font-weight: 400;">Below is a speed test of previewing a very simple application in Stadium 5 versus Stadium 6:</span>
 </p>
 <p>
-<img loading="lazy" class="alignnone size-full wp-image-1837" src="https://stadium.software/wp-content/uploads/2022/08/StadiumSpeedTest-1-1.gif" alt="" width="1440" height="810"/>
+<img loading="lazy" class="alignnone size-full wp-image-1837" src="{{ site.baseurl }}/blogimages/StadiumSpeedTest-1-1.gif" alt="" width="1440" height="810"/>
 </p>
 <p>
 <span style="font-weight: 400;">When doing tests on more complex applications the performance increase is much more notable, but even with this very simple page, we can see a more than 500% improvement. </span>
@@ -69,7 +69,7 @@ tags:
 <span style="font-weight: 400;">A highly simplified explanation would be: A SPA has only one HTML page with only data (in JSON format) travelling between the server and the page. The page is populated with this data via JavaScript. Because there is only one page, it only needs to be loaded once. Luckily Stadium 6 manages all of this for you, so you only need to build your application. </span>
 </p>
 <p>
-<img loading="lazy" class="alignnone size-full wp-image-1838" src="https://stadium.software/wp-content/uploads/2022/08/Stadium-Showcase-1.gif" alt="" width="800" height="450"/>
+<img loading="lazy" class="alignnone size-full wp-image-1838" src="{{ site.baseurl }}/blogimages/Stadium-Showcase-1.gif" alt="" width="800" height="450"/>
 </p>
 <p>
 <span style="font-weight: 400;">This is not the only change, there is a bunch of new features that will make development and application building much more feature rich. </span>

@@ -2,7 +2,7 @@
 layout: post
 title: New Release&#58; Stadium 5.15
 published: Wed, 24 Jun 2020 08:13:23 +0000
-image: https://stadium.software/wp-content/uploads/2019/05/blog-headliners-02-650x350.jpg
+image: /blogimages/blog-headliners-02-650x350.jpg
 categories: [announcements]
 tags: 
 ---
@@ -16,7 +16,7 @@ tags:
 <span style="font-weight: 400;">Stadium provides you with default styles for your generated applications. At times however, you might want to change the default look of your application to reflect the colours of your business or change the style to better accommodate your design. The new Style tab now allows you, whether a beginner or expert CSS user, to easily override the default styles and customize the application to your exact styling requirement.</span>
 </p>
 <p>
-<img loading="lazy" class="wp-image-1641 alignnone" src="https://stadium.software/wp-content/uploads/2020/06/2020-04-14_15h44_39-1-300x156.png" alt="" width="600" height="312" srcset="https://stadium.software/wp-content/uploads/2020/06/2020-04-14_15h44_39-1-300x156.png 300w, https://stadium.software/wp-content/uploads/2020/06/2020-04-14_15h44_39-1-1024x532.png 1024w, https://stadium.software/wp-content/uploads/2020/06/2020-04-14_15h44_39-1-768x399.png 768w, https://stadium.software/wp-content/uploads/2020/06/2020-04-14_15h44_39-1-1536x798.png 1536w, https://stadium.software/wp-content/uploads/2020/06/2020-04-14_15h44_39-1-650x338.png 650w, https://stadium.software/wp-content/uploads/2020/06/2020-04-14_15h44_39-1.png 1920w" sizes="(max-width: 600px) 100vw, 600px"/>
+<img loading="lazy" class="wp-image-1641 alignnone" src="{{ site.baseurl }}/blogimages/2020-04-14_15h44_39-1-300x156.png" alt="" width="600" height="312"/>
 </p>
 <p>
 <span style="font-weight: 400;">The Style editor consists of 4 parts:</span>
@@ -82,9 +82,7 @@ tags:
 <span style="font-weight: 400;">is where the advanced CSS user can make the real magic happen by adding any advanced CSS declarations that he wishes to.</span>
 </p>
 <h2>
-<span style="font-weight: 400;">
-</p>
-<p>Preview Logging</span>
+<p>Preview Logging</p>
 </h2>
 <p>
 <span style="font-weight: 400;">In the previous release we introduced Preview Logs which expose detailed runtime information of the actions. Database and web service calls are now also being logged to the preview logs. This enables you to debug and correct any possible issues that might occur while making such calls. </span>
@@ -156,5 +154,5 @@ For Web Service calls, the following info is logged:</span>
 <span style="font-weight: 400;">Below you can see an example of the preview logs of a web service call to the Random User API.</span>
 </p>
 <p>
-<img loading="lazy" class="alignnone wp-image-1644" src="https://stadium.software/wp-content/uploads/2020/06/2020-04-14_17h02_08-1-300x223.png" alt="" width="600" height="446" srcset="https://stadium.software/wp-content/uploads/2020/06/2020-04-14_17h02_08-1-300x223.png 300w, https://stadium.software/wp-content/uploads/2020/06/2020-04-14_17h02_08-1-1024x761.png 1024w, https://stadium.software/wp-content/uploads/2020/06/2020-04-14_17h02_08-1-768x571.png 768w, https://stadium.software/wp-content/uploads/2020/06/2020-04-14_17h02_08-1-650x483.png 650w, https://stadium.software/wp-content/uploads/2020/06/2020-04-14_17h02_08-1.png 1161w" sizes="(max-width: 600px) 100vw, 600px"/>
+<img loading="lazy" class="alignnone wp-image-1644" src="{{ site.baseurl }}/blogimages/2020-04-14_17h02_08-1-300x223.png" alt="" width="600" height="446"/>
 </p>

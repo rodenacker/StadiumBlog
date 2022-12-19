@@ -2,7 +2,7 @@
 layout: post
 title: Why we built Stadium
 published: Tue, 28 May 2019 05:31:38 +0000
-image: https://stadium.software/wp-content/uploads/2019/05/blog-headliners-03-650x350.jpg
+image: https://interaction-design.co.za/stadiumblog/blogimages/blog-headliners-03-650x350.jpg
 categories: [uncategorized]
 tags: 
 ---
@@ -25,7 +25,6 @@ tags:
 </li>
 <li style="font-weight: 400;">
 <span style="font-weight: 400;">Easily adapt to future changes or requirements
-<p>
 </span>
 </li>
 </ul>
@@ -48,15 +47,7 @@ tags:
 <span style="font-weight: 400;">The business landscape is fluid and constantly on the change. So will your business need to be in order to stand out and you will need to adapt quickly. We kept this in mind while building Stadium and made changing your application and maintaining it super easy. Adapting to changing business does not need to become a matter of planning months ahead of time anymore but simply do it on the fly as and when required.</span>
 </p>
 <h4>
-<strong>
-<span style="color: #333333;">What are our core competencies?</span>
-</p>
-<p>
-</strong>
-<strong>
-</strong>
-<strong>
-</strong>
+What are our core competencies?
 </h4>
 <p>
 <span style="font-weight: 400;">

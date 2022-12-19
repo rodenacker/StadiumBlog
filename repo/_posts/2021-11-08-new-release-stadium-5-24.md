@@ -2,7 +2,7 @@
 layout: post
 title: New Release&#58; Stadium 5.24
 published: Mon, 08 Nov 2021 15:13:22 +0000
-image: https://stadium.software/wp-content/uploads/2019/05/blog-headliners-03-650x350.jpg
+image: https://interaction-design.co.za/stadiumblog/blogimages/blog-headliners-03-650x350.jpg
 categories: [announcements]
 tags: 
 ---
@@ -38,7 +38,7 @@ tags:
 
 
 <figure class="wp-block-image size-large">
-<img loading="lazy" width="1024" height="641" src="https://stadium.software/wp-content/uploads/2021/11/1-Create-type-1024x641.png" alt="Creating a type" class="wp-image-1813" srcset="https://stadium.software/wp-content/uploads/2021/11/1-Create-type-1024x641.png 1024w, https://stadium.software/wp-content/uploads/2021/11/1-Create-type-300x188.png 300w, https://stadium.software/wp-content/uploads/2021/11/1-Create-type-768x480.png 768w, https://stadium.software/wp-content/uploads/2021/11/1-Create-type-650x407.png 650w, https://stadium.software/wp-content/uploads/2021/11/1-Create-type-1040x650.png 1040w, https://stadium.software/wp-content/uploads/2021/11/1-Create-type.png 1247w" sizes="(max-width: 1024px) 100vw, 1024px"/>
+<img loading="lazy" width="1024" height="641" src="{{ site.baseurl }}/blogimages/1-Create-type-1024x641.png" alt="Creating a type" class="wp-image-1813"/>
 <figcaption>Creating a type</figcaption>
 </figure>
 
@@ -49,7 +49,7 @@ tags:
 
 
 <figure class="wp-block-image size-large">
-<img loading="lazy" width="1024" height="673" src="https://stadium.software/wp-content/uploads/2021/11/2-Initialize-type-1024x673.png" alt="Setting initial values" class="wp-image-1814" srcset="https://stadium.software/wp-content/uploads/2021/11/2-Initialize-type-1024x673.png 1024w, https://stadium.software/wp-content/uploads/2021/11/2-Initialize-type-300x197.png 300w, https://stadium.software/wp-content/uploads/2021/11/2-Initialize-type-768x505.png 768w, https://stadium.software/wp-content/uploads/2021/11/2-Initialize-type-650x427.png 650w, https://stadium.software/wp-content/uploads/2021/11/2-Initialize-type.png 1440w" sizes="(max-width: 1024px) 100vw, 1024px"/>
+<img loading="lazy" width="1024" height="673" src="{{ site.baseurl }}/blogimages/2-Initialize-type-1024x673.png" alt="Setting initial values" class="wp-image-1814"/>
 <figcaption>Setting initial values</figcaption>
 </figure>
 
@@ -60,7 +60,7 @@ tags:
 
 
 <figure class="wp-block-image size-full">
-<img loading="lazy" width="475" height="548" src="https://stadium.software/wp-content/uploads/2021/11/3-Using-a-type.png" alt="Using a type" class="wp-image-1815" srcset="https://stadium.software/wp-content/uploads/2021/11/3-Using-a-type.png 475w, https://stadium.software/wp-content/uploads/2021/11/3-Using-a-type-260x300.png 260w" sizes="(max-width: 475px) 100vw, 475px"/>
+<img loading="lazy" width="475" height="548" src="{{ site.baseurl }}/blogimages/3-Using-a-type.png" alt="Using a type" class="wp-image-1815"/>
 <figcaption>Using a type</figcaption>
 </figure>
 
