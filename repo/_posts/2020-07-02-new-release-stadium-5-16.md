@@ -3,7 +3,8 @@ layout: post
 title: New Release&#58; Stadium 5.16
 published: Thu, 02 Jul 2020 06:35:53 +0000
 image: https://interaction-design.co.za/stadiumblog/blogimages/blog-headliners-02-650x350.jpg
-categories: [announcements]
+category: 
+  - Announcements
 tags: 
 ---
 

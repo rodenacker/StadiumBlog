@@ -29,6 +29,9 @@
 
   /* Posts */
   --postBackgroundColor: #ffffff;
+
+  /*Spinner*/
+    --spinnercolor: rgba(0, 0, 0, .6);
 }
 
 /* Fonts */
@@ -332,6 +335,7 @@ a.tag:hover {
 .newsletter-signup {
   color: rgba(112, 112, 112, 1);
   font-size: 12px;
+  position: relative;
 }
 
 .newsletter-signup h4 {
@@ -391,6 +395,63 @@ a.tag:hover {
   cursor: pointer;
 }
 
+/*Spinner*/
+.spinnercontainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-height: 100%;
+  margin: 20px auto 0 auto;
+  padding: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  text-align: center;
+  z-index: 1100;
+}
+
+.spinner {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.spinner > div > div {
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid var(--spinnercolor);
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: var(--spinnercolor) transparent transparent transparent;
+}
+
+.spinner>div>div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+
+.spinner>div>div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+
+.spinner>div>div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 /*Footer*/
 .footer {
   max-width: var(--containerMaxWidth);
@@ -410,6 +471,7 @@ a.tag:hover {
 .footer span {
   color: rgb(112, 112, 112);
 }
+
 /*Posts*/
 .posts {
   display: grid;
@@ -602,4 +664,3 @@ a.tag:hover {
   background-color: #eeeeee;
 }
 
-/*Media Queries*/

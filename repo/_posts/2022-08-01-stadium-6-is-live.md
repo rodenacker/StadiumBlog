@@ -3,7 +3,8 @@ layout: post
 title: Stadium 6 is Live 🚀
 published: 1 Aug 2022
 image: https://interaction-design.co.za/stadiumblog/blogimages/blog-headliners-04-650x350.jpg
-categories: [new-features]
+category: 
+  - New Features
 tags: [tag1, tag2, tag3, tag4, tag5, tag6]
 ---
 
@@ -48,7 +49,7 @@ tags: [tag1, tag2, tag3, tag4, tag5, tag6]
 <span style="font-weight: 400;">Below is a speed test of previewing a very simple application in Stadium 5 versus Stadium 6:</span>
 </p>
 <p>
-<img loading="lazy" class="alignnone size-full wp-image-1837" src="{{ site.baseurl }}/blogimages/StadiumSpeedTest-1-1.gif" alt="" width="1440" height="810"/>
+<img src="/blogimages/StadiumSpeedTest-1-1.gif" alt=""/>
 </p>
 <p>
 <span style="font-weight: 400;">When doing tests on more complex applications the performance increase is much more notable, but even with this very simple page, we can see a more than 500% improvement. </span>

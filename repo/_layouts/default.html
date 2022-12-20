@@ -24,13 +24,16 @@
                         {% if site.categories.size > 0 %}
                         <div class="sidebar-section">
                             <h4>Categories</h4>
-                            {% assign sorted_cats = site.categories | sort %} {% for category in sorted_cats %} {% assign lower_cat = category | first |
-                            downcase %} {% if lower_cat == page.category %}
+                            {% assign sorted_cats = site.categories | sort %} 
+                            {% for category in sorted_cats %} 
+                            {% assign lower_cat = category | first | downcase | replace: " ", "-" %} 
+                            {% if lower_cat == page.category %}
                             <a class="category selected" href="#">{{ category | first | capitalize }}</a>
                             {% else %}
-                            <a class="category" href="{{ site.baseurl }}/category/{{ category | first }}/">{{ category | first | capitalize }}</a>
+                            <a class="category" href="{{ site.baseurl }}/category/{{ category | first | downcase | replace: " ", "-" }}/">{{ category | first | capitalize }}</a>
                             <div class="divider"></div>
-                            {% endif %} {% endfor %}
+                            {% endif %} 
+                            {% endfor %}
                         </div>
                         {% endif %}
                         <div class="sidebar-section newsletter-signup">

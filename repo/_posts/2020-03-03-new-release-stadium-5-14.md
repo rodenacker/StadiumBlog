@@ -3,7 +3,8 @@ layout: post
 title: New Release&#58; Stadium 5.14
 published: Tue, 03 Mar 2020 12:20:50 +0000
 image: https://interaction-design.co.za/stadiumblog/blogimages/blog-headliners-02-650x350.jpg
-categories: [announcements]
+category: 
+  - Announcements
 tags: 
 ---
 

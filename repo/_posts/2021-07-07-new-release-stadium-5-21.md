@@ -3,7 +3,8 @@ layout: post
 title: New Release&#58; Stadium 5.21
 published: Wed, 07 Jul 2021 08:44:49 +0000
 image: https://interaction-design.co.za/stadiumblog/blogimages/blog-headliners-02-650x350.jpg
-categories: [announcements]
+category: 
+  - Announcements
 tags: 
 ---
 

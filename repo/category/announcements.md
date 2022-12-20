@@ -1,5 +1,4 @@
 ---
 layout: categorypage
-title: "Category: Announcements"
-category: announcements
+category: Announcements
 ---

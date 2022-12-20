@@ -3,7 +3,8 @@ layout: post
 title: Why we built Stadium
 published: Tue, 28 May 2019 05:31:38 +0000
 image: https://interaction-design.co.za/stadiumblog/blogimages/blog-headliners-03-650x350.jpg
-categories: [uncategorized]
+category: 
+  - Uncategorised
 tags: 
 ---
 

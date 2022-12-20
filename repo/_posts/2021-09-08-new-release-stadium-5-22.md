@@ -3,7 +3,8 @@ layout: post
 title: New Release&#58; Stadium 5.22
 published: Wed, 08 Sep 2021 07:42:50 +0000
 image: https://interaction-design.co.za/stadiumblog/blogimages/blog-headliners-03-650x350.jpg
-categories: [announcements]
+category: 
+  - Announcements
 tags: 
 ---
 

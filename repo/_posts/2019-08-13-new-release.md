@@ -3,7 +3,8 @@ layout: post
 title: New Release&#58; Stadium 5.12
 published: Tue, 13 Aug 2019 14:16:40 +0000
 image: https://interaction-design.co.za/stadiumblog/blogimages/blog-headliners-01-650x350.jpg
-categories: [announcements]
+category: 
+  - Announcements
 tags: 
 ---
 

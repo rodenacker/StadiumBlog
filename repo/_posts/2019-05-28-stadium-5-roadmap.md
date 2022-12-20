@@ -3,7 +3,8 @@ layout: post
 title: Stadium 5 Roadmap
 published: Tue, 28 May 2019 05:32:45 +0000
 image: https://interaction-design.co.za/stadiumblog/blogimages/blog-headliners-02-650x350.jpg
-categories: [roadmap]
+category: 
+  - Roadmap
 tags: [tag11, tag21, tag31, tag41, tag51, tag61]
 ---
 

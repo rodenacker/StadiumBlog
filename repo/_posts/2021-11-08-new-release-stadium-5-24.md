@@ -3,7 +3,8 @@ layout: post
 title: New Release&#58; Stadium 5.24
 published: Mon, 08 Nov 2021 15:13:22 +0000
 image: https://interaction-design.co.za/stadiumblog/blogimages/blog-headliners-03-650x350.jpg
-categories: [announcements]
+category: 
+  - Announcements
 tags: 
 ---
 

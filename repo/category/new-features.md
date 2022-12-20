@@ -1,5 +1,4 @@
 ---
 layout: categorypage
-title: "Category: New"
-category: new-features
+category: New Features
 ---

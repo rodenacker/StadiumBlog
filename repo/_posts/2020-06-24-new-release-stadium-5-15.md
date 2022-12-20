@@ -3,7 +3,8 @@ layout: post
 title: New Release&#58; Stadium 5.15
 published: Wed, 24 Jun 2020 08:13:23 +0000
 image: /blogimages/blog-headliners-02-650x350.jpg
-categories: [announcements]
+category: 
+  - Announcements
 tags: 
 ---
 

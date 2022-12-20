@@ -3,7 +3,8 @@ layout: post
 title: Stadium Goes Cloud
 published: Wed, 04 Dec 2019 12:28:00 +0000
 image: https://interaction-design.co.za/stadiumblog/blogimages/blog-headliners-04-650x350.jpg
-categories: [uncategorized]
+category: 
+  - Uncategorised
 tags: 
 ---
 

@@ -3,6 +3,7 @@ layout: default
 ---
 
 <div class="posts">
+    {% assign pagecat = page.category | downcase | replace: " ", "-" %} 
     {% for post in site.categories[page.category] %}
     <div class="post">
         <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.image }}" /></a>

@@ -3,7 +3,8 @@ layout: post
 title: We're here to empower business.  The Stadium story.
 published: Thu, 19 Dec 2019 13:50:32 +0000
 image: https://interaction-design.co.za/stadiumblog/blogimages/blog-headliners-01-650x350.jpg
-categories: [application-development]
+category: 
+  - Application Development
 tags: 
 ---
 
